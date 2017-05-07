@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>eat-that-burger</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+
+<body style="background-color:#ffffff;">
+    <h1 class="text-center text-danger" style="color:#ab2119;font-size:41px;padding-bottom:10px;">Eat-Da-Burger</h1>
+    <div class="container text-center" style="margin:auto;"><img class="img-responsive text-center" src="assets/img/img-burger.jpg" style="width:300px;background-color:#ffffff;margin:auto;padding:10px;padding-bottom:10px;"></div>
+    <div>
+        <div class="container">
+            <div class="row" style="padding:10px;margin-bottom:15px;">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center" style="margin:auto;">
+                    <form>
+                        <input type="text" id="burgerName" name="burger-name" required="" placeholder="Enter the burger that you want to eat" style="margin:10px;padding:10px;width:300px;">
+                        <button class="btn btn-primary" type="submit" id="submitBtn" style="margin:auto;">Submit </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-md-6 col-md-offset-0 text-center" style="margin:0px;">
+                    <h1>To eat</h1>
+                    <div id="to-eat-container">
+                    </div>
+                </div>
+                <div class="col-md-6 col-md-offset-0 text-center" style="margin:0px;">
+                    <h1>Eaten </h1>
+                    <div id="eaten-container">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <script src="assets/js/burger-controller.js"></script>
+</body>
+
+</html>
