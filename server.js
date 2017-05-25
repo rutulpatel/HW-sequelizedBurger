@@ -35,10 +35,10 @@ require("./api")(app);
 require("./controller")(app);
 
 // Start the server
-if (process.env.NODE_ENV !== "production") {
-    db.sequelize.sync({ force: false }).then(function() {
-        app.listen(PORT, function() {
-            console.log("app listening on PORT " + PORT);
-        });
+// if (process.env.NODE_ENV !== "production") {
+db.sequelize.sync({ force: false }).then(function() {
+    app.listen(PORT, function() {
+        console.log("app listening on PORT " + PORT);
     });
-}
+});
+// }
