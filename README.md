@@ -17,4 +17,4 @@ https://burgerapp-sequelized.herokuapp.com/?burger-name=Veggie+burger
  - MySQL
 
 # App screenshot
- ![Screenshot](https://burgerapp-sequelized.herokuapp.com/?burger-name=Veggie+burger)
+ ![Screenshot](screenshot.png)
