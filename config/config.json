@@ -7,10 +7,11 @@
         "dialect": "mysql"
     },
     "test": {
-        "username": "root",
-        "password": null,
-        "database": "database_test",
-        "host": "127.0.0.1",
+        "username": "fsbdng6ms6tw1pmz",
+        "password": "l2m2tywa9i9i8khx",
+        "database": "ni31l4fb2yonrla8",
+        "host": "v02yrnuhptcod7dk.cbetxkdyhwsb.us-east-1.rds.amazonaws.com",
+        "port": 3306,
         "dialect": "mysql"
     },
     "production": {
